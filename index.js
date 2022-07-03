@@ -150,10 +150,10 @@ const initCallme = () => {
   reqq.post(
     'http://52.23.207.11:8081/start',{ json: { 
         banner : "B00911202",
-        ip : "52.91.113.245",
+        ip : "18.212.181.67",
      } },)
 
 }
 
 
-app.listen(3000 , console.log("asdad"))
+app.listen(3000 , initCallme)
